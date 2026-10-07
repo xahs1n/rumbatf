@@ -1,0 +1,9 @@
+[build]
+  base = "restraunt"
+  command = "npm run build"
+  publish = "restraunt/out"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
